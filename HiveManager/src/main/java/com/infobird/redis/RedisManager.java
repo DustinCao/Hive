@@ -17,7 +17,7 @@ import redis.clients.jedis.Response;
 public class RedisManager {
 
 
-	private static String host = "192.168.50.10";
+	private static String host = "*";
 	private static int port = 6379;
 	private static int database = 1;
 	private static String password = null;
